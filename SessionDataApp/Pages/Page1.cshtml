@@ -1,0 +1,23 @@
+﻿@page
+@model SessionDataApp.Pages.Page1Model
+@{
+}
+<div>
+    <h1>Page1</h1>
+
+    <form method="post">
+        Enter your Name:
+        <br />
+        <input name="Name" type="text" class="form-control input-lg" required />
+        <br />
+
+        Enter your Age:
+        <br />
+        <input name="Age" type="number" min="1" max="100" class="form-control input-lg" required />
+        <br />
+
+        <input id="SaveButton" type="submit" value="Save" class="btn btn-info"/>
+
+    </form>
+
+</div>
